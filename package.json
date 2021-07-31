@@ -1,0 +1,19 @@
+{
+  "name": "driverdetailsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --ignore ./sampleData/ --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.12",
+    "randopeep": "^1.1.6"
+  }
+}
